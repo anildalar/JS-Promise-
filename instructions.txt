@@ -1,0 +1,32 @@
+There are two concept of JS Promise
+
+1. Producing Code
+			PC is the code which can take time.
+			i.e 
+			Async Task/Functions
+
+2. Consuming Code
+			CC is the code which wait for a result
+
+
+A Promise object (PO) is a object that links producing code and consuming code
+
+
+Promise is a built-in JS Class
+
+
+JS Class
+class MyClass{
+		// Members
+}
+
+You can create an object of that class
+
+
+po.then().catch().finally();
+
+
+then() = success  = resolve
+
+catch() = errors  =  reject
+
